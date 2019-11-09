@@ -3,10 +3,16 @@
 // icon-color: purple; icon-glyph: magic;
 
 /*
- * Requires then follows keys in the Keychain:
+ * Requires the following keys in the Keychain:
  *  - aws_access_key
  *  - aws_secret_key
  *  - aws_instace_id
+ *
+ * Here's the code to add them
+ *
+ *  Keychain.set("aws_access_key","XXXXXXXX")
+ *  Keychain.set("aws_secret_key","XXXXXXXX")
+ *  Keychain.set("aws_instace_id","XXXXXXXX")
  *
  */
 
